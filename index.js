@@ -9,11 +9,11 @@ app.use(express.json());
 
 // todos
 const todos = [
-  { id: uuidv4(), todo: "Create app" },
-  { id: uuidv4(), todo: "Add get todo api" },
-  { id: uuidv4(), todo: "Add create todo api" },
-  { id: uuidv4(), todo: "Add update todo api" },
-  { id: uuidv4(), todo: "Add delete todo api" },
+  { id: uuidv4(), todo: "Create app", completed: true },
+  { id: uuidv4(), todo: "Add get todo api", completed: true },
+  { id: uuidv4(), todo: "Add create todo api", completed: true },
+  { id: uuidv4(), todo: "Add update todo api", completed: true },
+  { id: uuidv4(), todo: "Add delete todo api", completed: true },
 ];
 
 // error
